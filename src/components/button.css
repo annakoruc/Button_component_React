@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Noto+Sans+JP:wght@500;700&family=Poppins:wght@600&family=Ubuntu+Mono&display=swap");
+
+button {
+  /* width: 81px; */
+  height: 36px;
+  padding: 0 20px;
+  border-radius: 6px;
+  border: none;
+
+  background-color: #e0e0e0;
+  box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+
+  font-family: "Noto Sans JP";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button:hover,
+button:focus {
+  background-color: #aeaeae;
+}
+
+/* variant */
+
+.outline {
+  background-color: transparent;
+  border: 1px solid #3d5afe;
+  box-shadow: none;
+  color: #3d5afe;
+}
+
+.text {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  color: #3d5afe;
+}
+
+.outline:hover,
+.text:hover {
+  background-color: rgba(41, 98, 255, 0.1);
+}
+
+/* disabled */
+
+.disableShadow {
+  box-shadow: none;
+}
+
+.text:disabled,
+button:disabled {
+  color: #9e9e9e;
+  box-shadow: none;
+}
+
+/* size */
+
+.sm {
+  padding: 6px 12px;
+}
+
+.md {
+  padding: 8px 16px;
+}
+
+.lg {
+  padding: 11px 22px;
+}
+
+/* color */
+
+.primary {
+  background-color: #2962ff;
+  color: #ffffff;
+  box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
+}
+.primary:hover {
+  background-color: #0039cb;
+}
+
+.secondary {
+  background-color: #455a64;
+  color: #ffffff;
+  box-shadow: 0px 2px 3px rgba(69, 90, 100, 0.2);
+}
+.secondary:hover {
+  background-color: #1c313a;
+}
+
+.danger {
+  background-color: #d32f2f;
+  color: #ffffff;
+  box-shadow: 0px 2px 3px rgba(211, 47, 47, 0.2);
+}
+.danger:hover {
+  background-color: #9a0007;
+}
